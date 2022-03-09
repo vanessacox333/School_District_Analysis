@@ -1,6 +1,7 @@
 # School District Analysis
 
 ## Overview of the school district analysis: 
+The school board has discovered that the students_complete.csv file shows evidence of academic dishonesty; specifically, reading and math grades for Thomas High School ninth graders appear to have been altered. The full extent of the academic dishonesty is unknown, and in order to address this concern, I've replaced the ninth grade math and reading scores for Thomas High School with NaNs. I then repeated the school district analysis with the ammended data and compared it to the original school district analysis. 
 
 ## Results: 
 
@@ -38,6 +39,7 @@ _Figure 7. Ammended Thomas High School Summary with 9th graders excluded in tota
 
 ### How does replacing the ninth-grade scores affect the following:
 #### Math and reading scores by grade
++ The only math and reading scores by grade that were affected were the Thomas High School 9th graders because they were replaced by NaNs. See Figures 8-11 to compare the original average math and reading scores by grade with the ammended average scores by grade.
 
 _Figure 8. Original Average Math Scores by Grade_
 ![](Resources/original_math_bygrade.png)
@@ -52,6 +54,7 @@ _Figure 11. Ammended Average Reading Scores by Grade_
 ![](Resources/ammended_reading_bygrade.png)
 
 #### Scores by school spending
++ The scores by school spending were unaffected by the ammendment of Thomas High School's 9th grade data. The more money spent per student does not correlate with increased average math or reading scores or increased math, reading, or overall passing percentages. The schools that spent the least per student remained having the highest overall math and reading passing percentage.
 
 _Figure 12. Original Scores by School Spending Per Student_
 ![](Resources/original_spending_scores.png)
@@ -60,6 +63,7 @@ _Figure 13. Ammended Scores by School Spending Per Student_
 ![](Resources/ammended_spending_scores.png)
 
 #### Scores by school size
++ The scores by school size were unaffected by the ammendment of Thomas High School's 9th grade data. Large schools remained having the lowest average math and reading scores as well as the lowest math, reading, and overall passing percentages. 
 
 _Figure 15. Original Scores by School Size_
 ![](Resources/original_scores_schoolsize.png)
@@ -68,6 +72,7 @@ _Figure 15. Ammended Scores by School Size_
 ![](Resources/ammended_scores_schoolsize.png)
 
 #### Scores by school type
++ The scores by school type were unaffected by the ammendment of Thomas High School's 9th grade data. Charter schools remained having the highest average math and reading scores as well as the highest math, reading, and overall passing percentages. 
 
 _Figure 15. Original Scores by School Type_
 ![](Resources/original_scores_schooltype.png)
@@ -77,3 +82,4 @@ _Figure 15. Ammended Scores by School Type_
 
 
 ## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+As discussed above, the school district summary was relatively unchanged by the ammendment of 9th grade Thomas High School data. The original average math score decreased by 0.1. The average reading score stayed the same at 81.9. Percent passing math decreased by 0.2%. Percent passing reading decreased by 0.1%. Lastly, percent overall passing decreased by 0.3%. 
